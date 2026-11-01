@@ -14,6 +14,19 @@ Peluncur Windows untuk [**NextMON**](https://github.com/FirmanKurniawan/NextMon)
 
 > Status: **v0.1.0**. Teruji di Windows 11 (lihat "Yang sudah teruji" di bawah). Belum ditandatangani digital, jadi Windows SmartScreen bisa memperingatkan.
 
+## Tampilan
+
+Tangkapan layar panel kontrol asli (dari rilis v0.1.0, mode demo mati).
+
+<table>
+<tr><td align="center"><img src="docs/screenshots/server-dashboard-dark.png" width="400" alt="Dashboard (gelap): status, uptime, RAM, dan log terbaru"><br><sub>Dashboard (gelap): status, uptime, RAM, dan log terbaru</sub></td><td align="center"><img src="docs/screenshots/server-dashboard-light.png" width="400" alt="Dashboard (terang)"><br><sub>Dashboard (terang)</sub></td></tr>
+<tr><td align="center"><img src="docs/screenshots/server-edition-switch.png" width="400" alt="Konfirmasi pindah edisi PHP ke Next.js"><br><sub>Konfirmasi pindah edisi PHP ke Next.js</sub></td><td align="center"><img src="docs/screenshots/server-runtimes.png" width="400" alt="Manajer runtime: versi terpasang dan tersedia"><br><sub>Manajer runtime: versi terpasang dan tersedia</sub></td></tr>
+<tr><td align="center"><img src="docs/screenshots/server-apps.png" width="400" alt="Aplikasi: port, versi runtime, variabel lingkungan"><br><sub>Aplikasi: port, versi runtime, variabel lingkungan</sub></td><td align="center"><img src="docs/screenshots/server-logs.png" width="400" alt="Log langsung dengan filter dan pencarian"><br><sub>Log langsung dengan filter dan pencarian</sub></td></tr>
+<tr><td align="center"><img src="docs/screenshots/server-backup.png" width="400" alt="Backup dan pulihkan data"><br><sub>Backup dan pulihkan data</sub></td><td align="center"><img src="docs/screenshots/server-updates.png" width="400" alt="Pembaruan aplikasi dan runtime"><br><sub>Pembaruan aplikasi dan runtime</sub></td></tr>
+<tr><td align="center"><img src="docs/screenshots/server-diagnostics.png" width="400" alt="Diagnostik sistem dengan perbaikan otomatis"><br><sub>Diagnostik sistem dengan perbaikan otomatis</sub></td><td align="center"><img src="docs/screenshots/server-settings.png" width="400" alt="Pengaturan: bahasa, tema, peluncuran, token"><br><sub>Pengaturan: bahasa, tema, peluncuran, token</sub></td></tr>
+<tr><td align="center"><img src="docs/screenshots/server-wizard.png" width="400" alt="Wizard pertama kali dipakai"><br><sub>Wizard pertama kali dipakai</sub></td><td align="center"><img src="docs/screenshots/server-mobile-dashboard.png" width="180" alt="Tampilan ponsel"><br><sub>Tampilan ponsel</sub></td></tr>
+</table>
+
 ## Pakai (pengguna)
 
 Unduh dari halaman [Releases](https://github.com/FirmanKurniawan/NextMon/releases) repo NextMON (paket rilis diterbitkan bersama aplikasinya):
