@@ -36,7 +36,7 @@ Semua path relatif terhadap folder exe. Tidak menulis ke registry kecuali opsi "
     "php":  { "port": 8080, "runtime": "8.4.27", "opcache": true, "extraIni": {}, "env": { "NEXTMON_DEMO": "0" } },
     "next": { "port": 3000, "runtime": "24.12.0", "env": {} }
   },
-  "update": { "checkOnStart": true, "channelPhp": "stable", "channelNode": "lts", "appRepo": "nextmon/nextmon-server", "appChannel": "stable" }
+  "update": { "checkOnStart": true, "channelPhp": "stable", "channelNode": "lts", "appRepo": "FirmanKurniawan/NextMon", "appChannel": "stable" }
 }
 ```
 

@@ -11,7 +11,7 @@ use std::sync::{Arc, Mutex};
 use std::time::Duration;
 
 pub const VERSION: &str = env!("CARGO_PKG_VERSION");
-pub const HOMEPAGE: &str = "https://github.com/nextmon/nextmon-server";
+pub const HOMEPAGE: &str = "https://github.com/FirmanKurniawan/NextMon";
 
 #[derive(Debug, Clone)]
 pub struct ApiErr {

@@ -124,7 +124,7 @@ impl Default for UpdateCfg {
             check_on_start: true,
             channel_php: "stable".into(),
             channel_node: "lts".into(),
-            app_repo: "nextmon/nextmon-server".into(),
+            app_repo: "FirmanKurniawan/NextMon".into(),
             app_channel: "stable".into(),
         }
     }
