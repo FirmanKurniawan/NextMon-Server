@@ -1,0 +1,21 @@
+//! NextMON Server: portable launcher + process supervisor + control API for the PHP and Next.js editions of NextMON.
+pub mod api;
+pub mod autostart;
+pub mod backup;
+pub mod cli;
+pub mod client;
+pub mod config;
+pub mod core;
+pub mod daemon;
+pub mod diagnostics;
+pub mod gui;
+pub mod jobs;
+pub mod launcher;
+pub mod logger;
+pub mod net;
+pub mod paths;
+pub mod runtime_api;
+pub mod supervisor;
+pub mod update;
+pub mod util;
+pub mod winproc;

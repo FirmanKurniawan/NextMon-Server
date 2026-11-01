@@ -1,0 +1,135 @@
+{
+ "7.4": {
+  "version": "7.4.33",
+  "ts-vc15-x64": {
+   "mtime": "2024-07-10T21:09:08+00:00",
+   "zip": {
+    "path": "php-7.4.33-Win32-vc15-x64.zip",
+    "size": "25.02MB",
+    "sha256": "cdbb85b45f38f282f05764ca08648b5f92db99c75b2fb3848eb4a559f6553b48"
+   }
+  },
+  "nts-vc15-x64": {
+   "mtime": "2024-07-10T21:09:01+00:00",
+   "zip": {
+    "path": "php-7.4.33-nts-Win32-vc15-x64.zip",
+    "size": "24.92MB",
+    "sha256": "14ae3250d4447c8ccfc4c45a70d90adfbcd61e728d85f0be56a7ddf8f9c8aace"
+   }
+  }
+ },
+ "8.0": {
+  "version": "8.0.30",
+  "ts-vs16-x64": {
+   "mtime": "2024-07-10T21:09:20+00:00",
+   "zip": {
+    "path": "php-8.0.30-Win32-vs16-x64.zip",
+    "size": "25.63MB",
+    "sha256": "8697972b5f704885e3444422ede2b5c25d025f614ea96dc67de74dc582471562"
+   }
+  },
+  "nts-vs16-x64": {
+   "mtime": "2024-07-10T21:09:12+00:00",
+   "zip": {
+    "path": "php-8.0.30-nts-Win32-vs16-x64.zip",
+    "size": "25.53MB",
+    "sha256": "dfb70498ffa2c617f2f655a155564697e3c9cca41709938fd1a5997d1d5b0785"
+   }
+  }
+ },
+ "8.1": {
+  "version": "8.1.34",
+  "ts-vs16-x64": {
+   "mtime": "2025-12-16T19:03:40+00:00",
+   "zip": {
+    "path": "php-8.1.34-Win32-vs16-x64.zip",
+    "size": "29.5MB",
+    "sha256": "8e17e0804fe48d3a032c9bef16f0f922996e0b1b237061b7ce94485394db5d1b"
+   }
+  },
+  "nts-vs16-x64": {
+   "mtime": "2025-12-16T19:03:38+00:00",
+   "zip": {
+    "path": "php-8.1.34-nts-Win32-vs16-x64.zip",
+    "size": "29.39MB",
+    "sha256": "9cfe246cb144076c16f5913a3ef88a474c3dd7e60f0f0c8bb95faf68674016cc"
+   }
+  }
+ },
+ "8.2": {
+  "version": "8.2.35-1",
+  "ts-vs16-x64": {
+   "mtime": "2026-10-26T13:06:48+00:00",
+   "zip": {
+    "path": "php-8.2.35-1-Win32-vs16-x64.zip",
+    "size": "32.33MB",
+    "sha256": "811d13185e401ef6ec286b21a58dc004ab6d4e04494923d88add19551faa1117"
+   }
+  },
+  "nts-vs16-x64": {
+   "mtime": "2026-10-26T13:06:48+00:00",
+   "zip": {
+    "path": "php-8.2.35-1-nts-Win32-vs16-x64.zip",
+    "size": "32.22MB",
+    "sha256": "ebe75134c03869826cb1714d31fd5eb96afefa6d9fd35d786971c03020e7bce2"
+   }
+  }
+ },
+ "8.3": {
+  "version": "8.3.36-1",
+  "ts-vs16-x64": {
+   "mtime": "2026-10-26T13:05:45+00:00",
+   "zip": {
+    "path": "php-8.3.36-1-Win32-vs16-x64.zip",
+    "size": "32.75MB",
+    "sha256": "126dd3cc8c19df5085b9420b2bc74ed591de3d98528858c52fc42739b7bba92e"
+   }
+  },
+  "nts-vs16-x64": {
+   "mtime": "2026-10-26T13:05:45+00:00",
+   "zip": {
+    "path": "php-8.3.36-1-nts-Win32-vs16-x64.zip",
+    "size": "32.6MB",
+    "sha256": "1a097d52b7a68622cdc723073b61cc70caf79c941218ff65b2d8441dbc6b10d4"
+   }
+  }
+ },
+ "8.4": {
+  "version": "8.4.27-1",
+  "ts-vs17-x64": {
+   "mtime": "2026-10-26T13:06:17+00:00",
+   "zip": {
+    "path": "php-8.4.27-1-Win32-vs17-x64.zip",
+    "size": "33.82MB",
+    "sha256": "53db2047139bdfb8e6c7c7d5860a0a6a2a4f1dcac49fcf18ae610a14d8ccdf5b"
+   }
+  },
+  "nts-vs17-x64": {
+   "mtime": "2026-10-26T13:06:17+00:00",
+   "zip": {
+    "path": "php-8.4.27-1-nts-Win32-vs17-x64.zip",
+    "size": "33.66MB",
+    "sha256": "dbae154a0a89791f36c3d48e68bae797878333e7d6cb5721e74617de59b63ab7"
+   }
+  }
+ },
+ "8.5": {
+  "version": "8.5.12-1",
+  "ts-vs17-x64": {
+   "mtime": "2026-10-26T13:05:05+00:00",
+   "zip": {
+    "path": "php-8.5.12-1-Win32-vs17-x64.zip",
+    "size": "34.76MB",
+    "sha256": "0dacd6484b092b5e9ae9fa3d7f96a937caf9d874eee2d980b68ed3129741144a"
+   }
+  },
+  "nts-vs17-x64": {
+   "mtime": "2026-10-26T13:05:05+00:00",
+   "zip": {
+    "path": "php-8.5.12-1-nts-Win32-vs17-x64.zip",
+    "size": "34.63MB",
+    "sha256": "2a36a2edcb7a5b9252f638fd5e4cf84d7f6e066092654220dc0b63e5cf4e9723"
+   }
+  }
+ }
+}
