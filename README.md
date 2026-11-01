@@ -1,8 +1,10 @@
 <p align="center"><img src="ui/assets/mark-tile.svg" alt="NextMON Server" height="72"></p>
 
+<p align="center"><a href="https://github.com/FirmanKurniawan/NextMon">NextMON</a> (aplikasi) &nbsp;·&nbsp; <b>NextMON Server</b> (peluncur Windows .exe) &nbsp;·&nbsp; <a href="https://github.com/FirmanKurniawan/NextMon/releases">Releases</a></p>
+
 # NextMON Server
 
-Peluncur Windows untuk [NextMON](https://github.com/FirmanKurniawan/NextMON) (pengelola hotspot MikroTik): satu file `NextMON Server.exe` portabel, tanpa instalasi dan tanpa hak administrator. Penerus ide *Mikhmon Server*, tetapi dengan panel kontrol, manajer runtime, dan dua edisi aplikasi.
+Peluncur Windows untuk [**NextMON**](https://github.com/FirmanKurniawan/NextMon) (pengelola hotspot MikroTik, pesaing Mikhmon; kode aplikasi dan dokumentasi fitur ada di repo itu): satu file `NextMON Server.exe` portabel, tanpa instalasi dan tanpa hak administrator. Penerus ide *Mikhmon Server*, tetapi dengan panel kontrol, manajer runtime, dan dua edisi aplikasi.
 
 - Menjalankan **satu edisi dalam satu waktu**: **PHP** *atau* **Next.js**. Mengganti edisi menghentikan yang lama lebih dulu. Data kedua edisi terpisah (`data/php`, `data/next`).
 - **Manajer runtime**: pasang, ganti, dan upgrade versi **PHP** (windows.php.net) dan **Node.js** (nodejs.org) dari panel. Unduhan diverifikasi SHA-256, upgrade punya health-check dan rollback.
@@ -14,7 +16,7 @@ Peluncur Windows untuk [NextMON](https://github.com/FirmanKurniawan/NextMON) (pe
 
 ## Pakai (pengguna)
 
-Unduh dari halaman Releases:
+Unduh dari halaman [Releases](https://github.com/FirmanKurniawan/NextMon/releases) repo NextMON (paket rilis diterbitkan bersama aplikasinya):
 
 | Paket | Isi |
 |---|---|
@@ -82,7 +84,7 @@ node tools/mock-server.mjs            # http://127.0.0.1:8791 (--fresh = keadaan
 # paket rilis (build ke C:\nm-stage agar tidak memenuhi drive proyek)
 powershell -File scripts\package.ps1 -Version 0.1.0
 ```
-Exe butuh folder `app/php` (dan `app/next`) di sampingnya; `package.ps1` menyalinnya dari repo [NextMON](https://github.com/FirmanKurniawan/NextMON). Untuk menjalankan dari `dist-dev/` salin sendiri `nextmon-php` ke `app/php`.
+Exe butuh folder `app/php` (dan `app/next`) di sampingnya; `package.ps1` menyalinnya dari repo [NextMON](https://github.com/FirmanKurniawan/NextMon). Untuk menjalankan dari `dist-dev/` salin sendiri `nextmon-php` ke `app/php`.
 
 ## Yang sudah teruji
 - `cargo test -p nextmon-server`: unit/API dan tes supervisor (backoff restart, port sibuk, pembersihan proses yatim, zip-slip, update swap + rollback, aturan Host/Origin/token).
