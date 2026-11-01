@@ -119,7 +119,7 @@ Step 'source zip'
 $srcStage = Join-Path $Stage "src\NextMON-v$Version-source"
 if (Test-Path $srcStage) { Remove-Item $srcStage -Recurse -Force }
 New-Item -ItemType Directory -Force $srcStage | Out-Null
-$xd = @('node_modules', '.next', 'target', 'dist-dev', 'data', '.git', '.claude', 'dist', 'coverage', '.test-tmp')
+$xd = @('node_modules', '.next', '.next-*', 'target', 'dist-dev', 'data', '.git', '.claude', 'dist', 'coverage', '.test-tmp')
 $xf = @('*.sqlite*', '*.log', 'config.json', '.env*')
 & robocopy $MonoRoot $srcStage /E /NFL /NDL /NJH /NJS /NP /XD @($xd + @($OutDir)) /XF @xf | Out-Null
 if ($LASTEXITCODE -ge 8) { throw 'robocopy source failed' }
