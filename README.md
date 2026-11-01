@@ -4,7 +4,7 @@
 
 # NextMON Server
 
-Peluncur Windows untuk [**NextMON**](https://github.com/FirmanKurniawan/NextMon) (pengelola hotspot MikroTik, pesaing Mikhmon; kode aplikasi dan dokumentasi fitur ada di repo itu): satu file `NextMON Server.exe` portabel, tanpa instalasi dan tanpa hak administrator. Penerus ide *Mikhmon Server*, tetapi dengan panel kontrol, manajer runtime, dan dua edisi aplikasi.
+Peluncur Windows untuk [**NextMON**](https://github.com/FirmanKurniawan/NextMon) (pengelola hotspot MikroTik, pesaing Mikhmon; kode aplikasi dan dokumentasi fitur ada di repo itu): satu file `NextMON Server.exe` portabel, tanpa instalasi dan tanpa hak administrator. Pesaing *Mikhmon Server* dengan fitur lebih lengkap: panel kontrol, manajer runtime PHP/Node, dan dua edisi aplikasi.
 
 - Menjalankan **satu edisi dalam satu waktu**: **PHP** *atau* **Next.js**. Mengganti edisi menghentikan yang lama lebih dulu. Data kedua edisi terpisah (`data/php`, `data/next`).
 - **Manajer runtime**: pasang, ganti, dan upgrade versi **PHP** (windows.php.net) dan **Node.js** (nodejs.org) dari panel. Unduhan diverifikasi SHA-256, upgrade punya health-check dan rollback.

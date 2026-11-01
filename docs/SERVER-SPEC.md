@@ -1,6 +1,6 @@
 # NextMON Server — spesifikasi
 
-Pengganti/penerus "Mikhmon Server" (peluncur Windows + PHP bawaan), tetapi jauh lebih lengkap: menjalankan **NextMON versi PHP _atau_ versi Next.js (satu edisi aktif dalam satu waktu, tidak bisa dua-duanya sekaligus)**, dengan
+Pesaing "Mikhmon Server" (peluncur Windows + PHP bawaan), tetapi jauh lebih lengkap: menjalankan **NextMON versi PHP _atau_ versi Next.js (satu edisi aktif dalam satu waktu, tidak bisa dua-duanya sekaligus)**, dengan
 **manajer runtime** untuk memilih, memasang, dan meng-upgrade versi **PHP** dan **Node.js**. Satu `.exe` (Rust), tanpa instalasi, portabel.
 
 ## Struktur folder (portabel)
